@@ -1,7 +1,28 @@
 .images-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+.images-list__item--top-row {
+    display: grid;
+    grid-column: span 2;
+}
+
+.images-list__item--vertical {
+    display: grid;
+    grid-row: span 2;
+}
+
+.just-image {
+    height: 100%;
+}
+
+.images-list__item--flat {
+    display: grid;
+    grid-column: span 2;
 }
