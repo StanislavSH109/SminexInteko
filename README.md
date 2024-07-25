@@ -1,0 +1,2 @@
+# SminexInteko
+Construction progress - Lavrushinsky
