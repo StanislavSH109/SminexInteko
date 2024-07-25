@@ -1,6 +1,5 @@
 .container {
-    display: flex;
-    width: 1220px;
-    padding: 0 100px;
-    margin: 0;
+    max-width: 1220px;
+    padding: 0 20px;
+    margin: 0 auto;
 }

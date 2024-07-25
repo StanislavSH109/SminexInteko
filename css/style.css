@@ -3,8 +3,11 @@
 @import "global/fonts.css";
 @import "global/reboot.css";
 @import "global/visually-hidden.css";
+@import 'global/container.css';
 
 /* Blocks */
 /* ------------------------------------ */
 @import "blocks/header.css";
 @import "blocks/images-list.css";
+@import "blocks/wrapper.css";
+@import "blocks/progress-construction.css";
