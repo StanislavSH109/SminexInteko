@@ -44,16 +44,16 @@
     margin: auto 0 0;
 }
 
-.progress-construction__link-previous {
+.progress-construction__link {
     display: flex;
-    text-align: right;
     color: #B68E6C;
-    
+    column-gap: 10px;
+}
+
+.progress-construction__link-previous {
+    text-align: right;
 }
 
 .progress-construction__link-next {
-    display: flex;
     text-align: left;
-    color: #B68E6C;
-
 }
