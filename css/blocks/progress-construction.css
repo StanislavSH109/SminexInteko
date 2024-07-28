@@ -11,6 +11,8 @@
 }
 
 .progress-construction__title {
+    font-family: "Fira Sans Extra Condensed";
+    margin: 0 0 20px 0;
     text-transform: uppercase;
     font-size: 40px;
     line-height: 44px;
@@ -20,13 +22,11 @@
 
 .progress-construction__wrapper {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     height: 100%;
 }
 
-.progress-construction__content {
-    height: 100%;
-}
 
 .progress-construction__list {
     display: flex;
@@ -48,6 +48,25 @@
     display: flex;
     color: #B68E6C;
     column-gap: 10px;
+    align-items: center;
+}
+
+.progress-construction__link-back {
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+    margin: 0 0 20px 0;
+    color: #ffffff;
+}
+
+.progress-construction__link-back {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+}
+
+.progress-construction__link svg {
+    min-width: 40px;
 }
 
 .progress-construction__link-previous {
@@ -56,4 +75,11 @@
 
 .progress-construction__link-next {
     text-align: left;
+}
+
+.progres-construction__link-text {
+    max-width: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
