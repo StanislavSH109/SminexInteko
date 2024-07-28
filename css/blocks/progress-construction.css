@@ -10,6 +10,11 @@
     align-items: center;
 }
 
+.progres-construction__link-text {
+    width: 100px;
+}
+
+
 .progress-construction__title {
     font-family: "Fira Sans Extra Condensed";
     margin: 0 0 20px 0;
