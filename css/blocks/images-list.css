@@ -10,7 +10,7 @@
 
 .images-list__item {
     width: 160px;
-    width: 200px;
+    height: 200px;
 }
 
 .images-list__item--small {
