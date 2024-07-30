@@ -51,10 +51,19 @@
 
 .progress-construction__link {
     display: flex;
+    align-items: center;
     color: #B68E6C;
     column-gap: 10px;
-    align-items: center;
+    max-width: 100px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
+
+.progress-construction__link-next {
+    text-align: left;
+}
+
 
 .progress-construction__link-back {
     display: flex;
@@ -74,17 +83,4 @@
     min-width: 40px;
 }
 
-.progress-construction__link-previous {
-    text-align: right;
-}
 
-.progress-construction__link-next {
-    text-align: left;
-}
-
-.progres-construction__link-text {
-    max-width: 100px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-}
